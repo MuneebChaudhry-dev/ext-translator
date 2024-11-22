@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "translator",
+  "description": "Translate the text in ENG/Urdu.",
+  "version": "1.0",
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "Click to open panel"
+  },
+
+  "side_panel": { "default_path": "index.html" },
+  "permissions": ["sidePanel"]
+}
